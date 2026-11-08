@@ -46,6 +46,9 @@ Posytron es un **POS SaaS multi-país (LATAM) y multi-vertical**. El comerciante
 | 18 | IA de voz | Push-to-talk, Web Speech API con fallback a Whisper |
 | 19 | Planes | Free / Pro / Premium |
 | 20 | Equipo | 1 dev full-time + IA como par |
+| 21 | IA incluida | Google Gemini: Flash para routing, Pro para narración |
+| 22 | Cuota IA | Ilimitada con fair use (150/día por tenant, 20/hora por usuario) |
+| 23 | Plan Free | Demo precargada de solo lectura, sin datos reales |
 
 ---
 
@@ -62,14 +65,16 @@ Posytron es un **POS SaaS multi-país (LATAM) y multi-vertical**. El comerciante
 | Empleados | ❌ | 3 | 10 |
 | Sucursales | ❌ | 1 incluida | 1 incluida |
 | Caja extra | — | COP 25.000 | COP 25.000 |
-| IA Posytron incluida | ❌ | ❌ (add-on COP 29.000) | ✅ 2.000 consultas/mes |
+| IA Posytron incluida | ❌ | ❌ (add-on COP 29.000) | ✅ Ilimitada con fair use |
 | BYOK (API key propia) | ❌ | ✅ gratis | ✅ |
 | Soporte | — | Email 48 h | Email 24 h + onboarding guiado |
 
 - **Free existe para probar el producto**, no para operar: cuenta creada, tour, datos de ejemplo de solo lectura. Se configura todo, pero no se puede vender.
 - **Anual:** 2 meses gratis en Pro y Premium.
 - **Empleado adicional:** COP 9.000/mes, solo en Premium (Pro tope 3).
-- **Fair use IA:** 2.000 consultas/mes en Premium; excedente a COP 0,05 por consulta o cambiar a BYOK.
+- **Fair use IA:** la IA de Premium es ilimitada en la práctica. El límite técnico es 150 consultas/día por tenant y 20/hora por usuario; al superarlo se pide espera o cambio a BYOK. Un tenant que triplique la mediana durante 7 días pasa a revisión manual, no a bloqueo automático.
+- **Proveedor por defecto:** Google Gemini — modelo Flash para routing y consultas simples, modelo Pro para narración y razonamiento. Configurable, porque BYOK permite cualquier proveedor.
+- **Free:** entra con un negocio de ejemplo precargado (minimarket con 60 productos, ventas y clientes ficticios). Puede navegar los 6 hubs, probar la IA en modo demostración y ver el catálogo de 400 herramientas. No puede crear datos reales ni vender.
 - **BYOK nunca es letra muerta:** si el cliente trae su key, la IA le cuesta cero a Posytron y el plan Pro deja de necesitar el add-on.
 
 ### Ciclo de pago (MercadoPago)
@@ -491,7 +496,7 @@ Así la IA "entiende todo el POS" sin poder romperlo: lee vistas y actúa solo p
 | Rotación | El owner la reemplaza; se guarda historial de huellas (no de claves) |
 | UI | Administración → IA → "Usar mi API key" con selector de proveedor |
 
-Proveedores soportados: OpenAI, Anthropic, Google, Groq, OpenRouter, DeepSeek y endpoint compatible OpenAI (Ollama incluido).
+Proveedores soportados: Google Gemini (por defecto), OpenAI, Anthropic, Groq, OpenRouter, DeepSeek y cualquier endpoint compatible con OpenAI (Ollama incluido).
 
 **Regla de negocio:** con BYOK el cliente paga su consumo; Posytron solo cobra el plan. Sin BYOK, consume la cuota de Premium.
 
@@ -545,7 +550,7 @@ Toda acción de la IA entra a `ai_actions` con `before`, `after`, `tool_key`, `a
 
 | Modo | Quién paga | Límite |
 |---|---|---|
-| Premium incluido | Posytron | 2.000 consultas/mes, luego COP 0,05 |
+| Premium incluido | Posytron | Fair use: 150/día por tenant, 20/hora por usuario |
 | BYOK | El cliente | Sin límite de Posytron |
 | Pro sin add-on | — | IA deshabilitada, herramientas manuales |
 
@@ -647,6 +652,7 @@ Regla de escalado: **cada herramienta es un manifiesto + una RPC**. Las de tipo 
 |---|---|
 | `tenants` | Negocio. País, moneda, idioma, `status`, `plan` |
 | `business_profiles` | Cuestionario inicial (JSONB versionado) |
+| `demo_datasets` | Negocio de ejemplo para cuentas Free (solo lectura) |
 | `process_profiles` | Cuestionario de procesos (JSONB versionado) |
 | `users` / `memberships` | Usuarios, rol y PIN dentro del tenant |
 | `branches` / `registers` / `shifts` | Sucursales, cajas, turnos y arqueo |
@@ -731,7 +737,7 @@ Semana 1 = lunes 9 de noviembre de 2026. Un dev full-time.
 | `ai-chat` con tool calling sobre 220 herramientas | 10 frases objetivo resueltas correctamente |
 | Voz push-to-talk + Whisper fallback | Dictar y ejecutar una venta de prueba |
 | Confirmaciones, umbrales y undo | Toda acción reversible por 24 h |
-| Cuotas y cache de IA | 2.000 consultas/mes con alerta al 80% |
+| Cuotas y cache de IA | Fair use activo: 150/día, 20/hora, aviso antes del corte |
 | **220 herramientas** | Automatizaciones y marketing activos |
 
 ### Fase 5 — Profundidad (semanas 23–30)
@@ -790,7 +796,7 @@ Semana 1 = lunes 9 de noviembre de 2026. Un dev full-time.
 
 ## 13. Semana 1 — checklist ejecutable
 
-1. `supabase init` + `supabase start`; migraciones versionadas.
+1. Conectar el proyecto Supabase existente (`supabase link`) + `supabase start` local; migraciones versionadas.
 2. Esquema base: `tenants`, `users`, `memberships`, `branches`, `audit_log`.
 3. RLS en todas + `custom_access_token_hook`.
 4. **Test de aislamiento** entre tenants en CI.
