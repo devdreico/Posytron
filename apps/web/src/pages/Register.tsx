@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { register, getDB } from "../lib/store";
-import { isCloud, cloudRegister } from "../lib/cloud";
+const isCloud = !!(import.meta.env.VITE_SUPABASE_URL && import.meta.env.VITE_SUPABASE_ANON_KEY);
 import { slugify } from "../lib/seed";
 import { Button, Field } from "../components/ui";
 
@@ -22,7 +22,7 @@ export function Register() {
       return;
     }
     const res = isCloud
-      ? await cloudRegister({ name, email, password })
+      ? await (await import("../lib/cloud")).cloudRegister({ name, email, password })
       : register({ name, email, password });
     if (!res.ok) {
       setError(res.error ?? "No pudimos crear la cuenta.");

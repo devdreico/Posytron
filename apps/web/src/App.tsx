@@ -1,8 +1,7 @@
 import { lazy, Suspense, useEffect, type ReactNode } from "react";
 import { BrowserRouter, Navigate, Route, Routes, useLocation, useParams } from "react-router-dom";
 import { useDB } from "./lib/store";
-import { isCloud } from "./lib/supabase";
-import { hydrate } from "./lib/cloud";
+
 import { Rail } from "./components/Shell";
 import { AiDock } from "./components/AiDock";
 
@@ -82,7 +81,8 @@ function Root() {
 
 function CloudBootstrap() {
   useEffect(() => {
-    if (isCloud) hydrate().catch(() => {});
+    const cloud = !!(import.meta.env.VITE_SUPABASE_URL && import.meta.env.VITE_SUPABASE_ANON_KEY);
+    if (cloud) import("./lib/cloud").then((m) => m.hydrate().catch(() => {}));
   }, []);
   return null;
 }

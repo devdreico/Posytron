@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { getDB, loginEmployee, loginOwner, DEMO_SLUG, DEMO_PASSWORD } from "../lib/store";
-import { isCloud, cloudLoginOwner, cloudLoginEmployee } from "../lib/cloud";
+const isCloud = !!(import.meta.env.VITE_SUPABASE_URL && import.meta.env.VITE_SUPABASE_ANON_KEY);
 import { Button, Field } from "../components/ui";
 
 export function Login() {
@@ -20,8 +20,8 @@ export function Login() {
     const res =
       isCloud
         ? mode === "owner"
-          ? await cloudLoginOwner(slug, password, code)
-          : await cloudLoginEmployee(slug, username, pin)
+          ? await (await import("../lib/cloud")).cloudLoginOwner(slug, password, code)
+          : await (await import("../lib/cloud")).cloudLoginEmployee(slug, username, pin)
         : mode === "owner"
         ? loginOwner(slug, password, code)
         : loginEmployee(slug, username, pin);
