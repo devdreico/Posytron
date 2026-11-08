@@ -25,7 +25,7 @@ Posytron es un **POS SaaS multi-país (LATAM) y multi-vertical**: el comerciante
 | 1 | Alcance | Multi-vertical + agregador de terceros + white-label, por fases |
 | 2 | Mercado | LATAM operativo; Colombia como playa inicial |
 | 3 | Vertical MVP | Retail / minimarket |
-| 4 | Plataforma | **Un solo sitio web** (React 19 + Vite PWA) + app nativa Expo |
+| 4 | Plataforma | **Un solo sitio web**: React 19 + Vite + PWA instalable. Sin app nativa |
 | 5 | Stack | React 19 + Vite + TS + Tailwind / FastAPI + SQLModel + Postgres |
 | 6 | DIAN | Fase 5, con proveedor tecnológico autorizado |
 | 7 | Cobro | Suscripción self-service, MercadoPago |
@@ -34,10 +34,15 @@ Posytron es un **POS SaaS multi-país (LATAM) y multi-vertical**: el comerciante
 | 10 | Sucursales | Multi-sucursal y multi-caja desde el modelo de datos |
 | 11 | Diferenciador | IA que responde el negocio |
 | 12 | Equipo | 1 dev full-time + IA como par |
-| 13 | Acceso | Nombre de negocio + contraseña + código de 6 dígitos |
+| 13 | Acceso | Nombre de negocio + contraseña + código de 6 dígitos (TOTP) |
 | 14 | Onboarding | Cuestionario inicial obligatorio, solo en la primera entrada |
 | 15 | Navegación | Toolbar izquierda + hero con exactamente 6 indicadores |
 | 16 | Verticales | Se activan por el cuestionario de Procesos, no por menú |
+| 17 | Empleados | Slug del negocio + usuario + PIN de 4–6 dígitos |
+| 18 | Glifo | Paramétrico: 10 arquetipos, mínimo 30 combinaciones |
+| 19 | URL | `posytron.com/{slug}` |
+| 20 | Multi-POS | Varios POS activos a la vez, mismo precio |
+| 21 | Móvil | La misma PWA, instalable desde el navegador |
 
 ---
 
@@ -87,7 +92,7 @@ Todos los módulos se agrupan en **6 hubs** (ver §6.8). Nada vive fuera de esos
 | Reportes | Ventas, margen, top productos, por cajero/sucursal, exportable |
 | SaaS | Registro, trial, suscripción, facturación, panel super-admin |
 | IA | Preguntas en lenguaje natural, insights proactivos |
-| Móvil | Venta rápida, escaneo por cámara, impresión Bluetooth |
+| PWA | Instalable, offline shell, escaneo por cámara, impresión Bluetooth |
 
 ### Fuera del MVP
 
@@ -105,19 +110,33 @@ La API vive en el mismo dominio bajo `/api`, detrás de un reverse proxy. Mismo 
 
 Lenguajes: **TypeScript** en todo el frontend y paquetes compartidos; **Python** en la API; **SQL** en migraciones. Nada más.
 
+**Todo el esfuerzo va al sitio web.** No hay app nativa, no hay App Store ni Play Store. En móvil, el usuario abre el sitio desde el navegador y lo instala como PWA ("Añadir a pantalla de inicio"). Es la misma base de código, el mismo deploy y el mismo contrato de API.
+
+Requisitos PWA (fase 0, no fase 5):
+
+| Pieza | Implementación |
+|---|---|
+| Manifest | Nombre, iconos 192/512, `display: standalone`, `theme_color` |
+| Service worker | Workbox: precache del shell, stale-while-revalidate en catálogo |
+| Offline de venta | Cola de ventas en IndexedDB + idempotency key |
+| Instalación | Prompt propio a los 2 usos, no al primer segundo |
+| Actualización | Aviso "nueva versión disponible" + recarga controlada |
+| Impresión | Red (TCP 9100) en Android/desktop; Web Bluetooth para térmicas BT en Android |
+
+**Límite real:** iOS Safari no expone Web Bluetooth ni Web Serial. En iPhone/iPad la impresión térmica no es posible desde la PWA; se resuelve con impresión en red o PDF. La recomendación comercial es tablet Android.
+
 ### Monorepo
 
 ```
 Posytron/
 ├── apps/
-│   ├── web/            EL SITIO ÚNICO — React 19 + Vite + TS + Tailwind
+│   ├── web/            EL SITIO ÚNICO — React 19 + Vite + TS + Tailwind + PWA
 │   │                   login, onboarding, hero, 6 hubs, super-admin
-│   ├── mobile/         Expo (React Native) — artefacto nativo aparte
 │   └── api/            FastAPI + SQLModel
 ├── packages/
 │   ├── core/           Lógica TS: carrito, impuestos, precios, permisos, cola
 │   ├── glyphs/         Generador SVG de la representación del negocio
-│   ├── ui/             Design system (solo web)
+│   ├── ui/             Design system
 │   └── sdk/            Cliente API generado desde OpenAPI
 ├── infra/              Docker Compose, migraciones, CI, backups
 └── docs/               Este plan + ADRs
@@ -125,7 +144,7 @@ Posytron/
 
 Gestión: **pnpm workspaces + Turborepo**. Backend Python con pipeline aparte (ruff + mypy + pytest).
 
-> **Nota de tensión:** una app nativa no puede formar parte del "único sitio web". Se mantiene Expo como artefacto separado que comparte `packages/core`; el sitio web sigue siendo autosuficiente y usable desde el celular.
+> **Un solo target.** No existe `apps/mobile`. La experiencia móvil es la PWA: mismo código, mismo build, misma URL.
 
 ### Diagrama
 
@@ -133,7 +152,7 @@ Gestión: **pnpm workspaces + Turborepo**. Backend Python con pipeline aparte (r
 ┌─────────────────────────────────────────────────────┐
 │                   EL SITIO ÚNICO                    │
 │  apps/web (React 19 + Vite) — un solo build         │
-│  /  /onboarding  /setup  /app  /app/*  /admin       │
+│  /  /registro  /{slug}  /{slug}/*  /admin          │
 │                                                      │
 │  packages/ui    packages/glyphs    packages/core     │
 └────────────────────────┬────────────────────────────┘
@@ -150,7 +169,7 @@ Gestión: **pnpm workspaces + Turborepo**. Backend Python con pipeline aparte (r
    │ 16 (RLS) │   │ cache/cola │  │ + workers    │
    └──────────┘   └────────────┘  └──────────────┘
 
-   apps/mobile (Expo) ──► /api (mismo contrato)
+   PWA: el mismo build, instalado desde el navegador
 ```
 
 ### Multi-tenant
@@ -195,13 +214,14 @@ pregunta → LLM (salida estructurada) → validador whitelist
 | Impresora 80mm | Red (TCP 9100) como primario; WebSerial/WebUSB como fallback en Chrome |
 | Cajón monedero | Pulso por la impresora (`ESC p`) |
 | Lector de barras | HID (se comporta como teclado), cero drivers |
-| App móvil | Bluetooth ESC/POS vía Expo dev client |
+| Móvil Android | Web Bluetooth (ESC/POS) o impresora de red |
+| iOS | Solo impresión en red o PDF: Safari no expone Bluetooth/Serial |
 
 Báscula y datáfono integrado: fase 5.
 
 ### Resiliencia
 
-La venta web es online, pero cada venta lleva **idempotency key** y entra a una cola en IndexedDB si falla la red: se reintenta y no se duplica. La app nativa opera offline con SQLite y sincronización por delta.
+La venta es online, pero cada venta lleva **idempotency key** y entra a una cola en IndexedDB si falla la red: se reintenta y no se duplica. El service worker precachea el shell y el catálogo, así que la app abre y navega aunque no haya internet; solo la escritura requiere conexión.
 
 ---
 
@@ -212,17 +232,20 @@ La venta web es online, pero cada venta lleva **idempotency key** y entra a una 
 | Ruta | Pantalla | Guarda |
 |---|---|---|
 | `/` | Login: nombre de negocio, contraseña, código de 6 dígitos | Público |
-| `/onboarding` | Cuestionario inicial | Autenticado + `onboarding_pending` |
-| `/setup` | "Todo listo — Preparando tu negocio digital" | Autenticado + `setup_running` |
-| `/app` | Hero con glifo y 6 indicadores | Autenticado + `active` |
-| `/app/caja` | Hub Caja | `active` |
-| `/app/inventario` | Hub Inventario | `active` |
-| `/app/administracion` | Hub Administración | `active` |
-| `/app/red` | Hub Red Externa | `active` |
-| `/app/clientes` | Hub Clientes | `active` |
-| `/app/procesos` | Hub Procesos | `active` |
-| `/app/procesos/cuestionario` | Cuestionario de procesos | `active` |
+| `/registro` | Crear cuenta: slug, email, contraseña | Público |
+| `/{slug}` | Resuelve estado y redirige: onboarding, setup o hero | Autenticado |
+| `/{slug}/onboarding` | Cuestionario inicial | `onboarding_pending` |
+| `/{slug}/setup` | "Todo listo — Preparando tu negocio digital" | `setup_running` |
+| `/{slug}/caja` | Hub Caja | `active` |
+| `/{slug}/inventario` | Hub Inventario | `active` |
+| `/{slug}/administracion` | Hub Administración | `active` |
+| `/{slug}/red` | Hub Red Externa | `active` |
+| `/{slug}/clientes` | Hub Clientes | `active` |
+| `/{slug}/procesos` | Hub Procesos | `active` |
+| `/{slug}/procesos/cuestionario` | Cuestionario de procesos | `active` |
 | `/admin` | Panel super-admin SaaS | Rol `superadmin` |
+
+El slug es la raíz de todo: `posytron.com/minimarket-ana/caja`. Un slug reservado o inexistente devuelve 404, nunca el login.
 
 Code-splitting por ruta. Un solo `index.html`, un solo deploy.
 
@@ -243,9 +266,11 @@ Tres campos, sin excepciones:
 
 | Campo | Tipo | Regla |
 |---|---|---|
-| Nombre del negocio | Texto | Slug único global, normalizado (minúsculas, sin espacios) |
+| Nombre del negocio | Texto | Slug único global: `[a-z0-9-]{3,30}`, sin espacios |
 | Contraseña | Password | Argon2id, mínimo 10 caracteres |
-| Código de 6 dígitos | OTP | 6 dígitos exactos, válido 5 minutos, un solo uso |
+| Código de 6 dígitos | TOTP | RFC 6238, ventana ±1 (30 s), un solo uso |
+
+**Slug del negocio.** Es a la vez el campo de login y la URL: `posytron.com/minimarket-ana`. Se reservan ~40 slugs (admin, api, app, login, soporte, precios…). Sin mayúsculas, sin tildes, sin ñ. Inmutable después del registro: cambiarlo rompe la URL y el hábito del usuario.
 
 Comportamiento:
 
@@ -253,10 +278,19 @@ Comportamiento:
 - Rate limit por nombre de negocio + IP: 5 intentos / 15 min, luego espera exponencial.
 - El código se pide **siempre**, incluso antes de validar la contraseña, para que el tiempo de respuesta no filtre información.
 - Sesión: access token 15 min + refresh 30 días rotativo, en cookie `HttpOnly`.
-- Si la cuenta existe → se resuelve el estado y se redirige a `/onboarding` (primera vez) o `/app`.
+- Si la cuenta existe → se resuelve el estado y se redirige a `/{slug}/onboarding` (primera vez) o `/{slug}`.
 - Recuperación: el código de 6 dígitos es también el canal de recuperación de contraseña.
 
-### 6.4 Cuestionario inicial (`/onboarding`)
+**Dos tipos de sesión:**
+
+| Actor | Campos | Después del login |
+|---|---|---|
+| Administrador | slug + contraseña + TOTP | `/{slug}/onboarding` (primera vez) o `/{slug}` |
+| Empleado (cajero, supervisor) | slug + usuario + PIN 4–6 dígitos | Directo a `/{slug}/caja`, sin cuestionarios |
+
+El empleado nunca ve el hero ni los 6 hubs completos: su toolbar se limita a los hubs con permiso. El PIN se hashea con Argon2id, tiene bloqueo tras 5 intentos y se rota desde Administración. El administrador puede exigir TOTP también a supervisores.
+
+### 6.4 Cuestionario inicial (`/{slug}/onboarding`)
 
 Se muestra **solo la primera entrada**. Cuatro pasos, autoguardado por paso, < 3 minutos.
 
@@ -274,7 +308,7 @@ Reglas:
 - Al terminar se genera `business_profile` (JSON versionado) y el tenant pasa a `setup_running`.
 - El cuestionario **no** se vuelve a mostrar. Se puede editar después desde Administración.
 
-### 6.5 Pantalla de preparación (`/setup`)
+### 6.5 Pantalla de preparación (`/{slug}/setup`)
 
 "Todo listo — Preparando tu negocio digital".
 
@@ -287,7 +321,7 @@ Los pasos son **reales**, no una animación falsa. Si algo falla, se muestra y s
 5. Generar el glifo del negocio.
 6. Activar los hubs que aplican.
 
-Duración objetivo: < 8 segundos. Al terminar → `/app`.
+Duración objetivo: < 8 segundos. Al terminar → `/{slug}`.
 
 ### 6.6 Hero y toolbar
 
@@ -297,12 +331,12 @@ Duración objetivo: < 8 segundos. Al terminar → `/app`.
 
 | # | Indicador | Métrica viva | Redirige a |
 |---|---|---|---|
-| 1 | Caja | Ventas de hoy / turno abierto | `/app/caja` |
-| 2 | Inventario | Productos bajo mínimo | `/app/inventario` |
-| 3 | Administración | Estado del plan / alertas | `/app/administracion` |
-| 4 | Red Externa | Proveedores pendientes / por pagar | `/app/red` |
-| 5 | Clientes | Cuentas por cobrar / nuevos del mes | `/app/clientes` |
-| 6 | Procesos | POS activos / recomendados | `/app/procesos` |
+| 1 | Caja | Ventas de hoy / turno abierto | `/{slug}/caja` |
+| 2 | Inventario | Productos bajo mínimo | `/{slug}/inventario` |
+| 3 | Administración | Estado del plan / alertas | `/{slug}/administracion` |
+| 4 | Red Externa | Proveedores pendientes / por pagar | `/{slug}/red` |
+| 5 | Clientes | Cuentas por cobrar / nuevos del mes | `/{slug}/clientes` |
+| 6 | Procesos | POS activos / recomendados | `/{slug}/procesos` |
 
 Regla dura: si un hub no aplica al negocio, la tarjeta se muestra **inactiva con candado y motivo** ("no manejas inventario"), nunca se elimina. El mapa mental del usuario se mantiene estable y siempre son 6.
 
@@ -310,17 +344,41 @@ Regla dura: si un hub no aplica al negocio, la tarjeta se muestra **inactiva con
 
 Representación abstracta, **paramétrica y generada por código** (nunca ilustración encargada ni imagen de stock).
 
+**10 arquetipos base:**
+
+| # | `archetype` | Para |
+|---|---|---|
+| 1 | `kiosk_single` | Tienda de barrio, quiosco, puesto |
+| 2 | `retail_grid` | Minimarket, superete |
+| 3 | `supermarket_aisles` | Supermercado, autoservicio |
+| 4 | `restaurant_tables` | Restaurante, comida corrida |
+| 5 | `cafe_bar_counter` | Cafetería, bar, panadería con mesas |
+| 6 | `bakery_racks` | Panadería, pastelería |
+| 7 | `pharmacy_shelves` | Farmacia, droguería |
+| 8 | `services_rooms` | Barbería, spa, estética, consultorio |
+| 9 | `workshop_bays` | Taller mecánico, motos, cerrajería |
+| 10 | `warehouse_bulk` | Distribuidora, ferretería, depósito |
+
+**Combinaciones:** 10 arquetipos × 3 densidades (compacta / media / amplia) × 4 paletas = **120 combinaciones**, muy por encima del mínimo de 30.
+
 | Token | Origen | Efecto |
 |---|---|---|
-| `archetype` | tipo de negocio | `retail_grid` (minimarket), `restaurant_tables`, `pharmacy_shelves`, `services_rooms`, `kiosk_single`, `warehouse_bulk` |
-| `density` | # empleados y tamaño | 1–5: cantidad de elementos del glifo |
-| `palette` | sector | 3 paletas por vertical, contraste AA |
+| `archetype` | tipo de negocio | Forma base del plano |
+| `density` | # empleados y tamaño | 1–3: cantidad y espaciado de elementos |
+| `palette` | sector | 4 paletas, contraste AA |
 | `accent` | rasgos del cuestionario | Delivery, crédito, multi-sucursal añaden un elemento distintivo |
 | `seed` | `hash(tenant_id)` | Variación determinista: dos minimarket no se ven idénticos |
 
 Especificación de render: SVG plano, 2–3 colores, trazos geométricos, viewBox 800×400, < 8 KB, sin texto. Componente `<BusinessGlyph profile={...} />` en `packages/glyphs`.
 
-Reglas de diseño: nada realista, nada de iconos de comida genéricos; debe leerse como un plano, no como un dibujo.
+**Criterios de calidad (obligatorios):**
+
+- Se lee como un **plano**, no como un dibujo ni un icono.
+- Geometría pura: rectángulos, círculos, líneas. Cero degradados, cero sombras, cero 3D.
+- Agrupa los elementos como un mapa de zonas (venta, almacén, atención), no como una escena.
+- A 320 px de ancho sigue siendo legible: máximo 40 primitivas por glifo.
+- Determinista: mismo perfil ⇒ mismo glifo, en cualquier dispositivo.
+- Accesible: `role="img"` con un `aria-label` que describa el tipo de negocio.
 
 ### 6.8 Los 6 hubs
 
@@ -337,7 +395,7 @@ Cada hub se construye con el mismo patrón: cabecera con 3 métricas, barra de a
 
 ### 6.9 Procesos: cuestionario y motor de recomendación
 
-Primera entrada a `/app/procesos` ⇒ cuestionario de procesos. Captura **qué hace el administrador para que el negocio funcione**, no qué software quiere.
+Primera entrada a `/{slug}/procesos` ⇒ cuestionario de procesos. Captura **qué hace el administrador para que el negocio funcione**, no qué software quiere.
 
 - **Catálogo de tareas** (~40), agrupadas en 6 etapas: comprar, recibir/almacenar, producir/preparar, vender, cobrar, cerrar el día.
 - **Matriz `pos_capabilities`**: ~25 capacidades (mesas, comandas, lotes, vencimientos, agenda, comisiones, báscula, seriales, recetas, delivery…) × ~8 POS candidatos (retail, restaurante, farmacia, servicios, ferretería, panadería, licorería, cafetería).
@@ -380,7 +438,7 @@ Ambos son versionados; un cambio de esquema obliga a migración, no a `if` dispe
 | Negocio inexistente | Error genérico + misma latencia |
 | Código expirado o erróneo | Error en el campo del código, sin revelar cuál de los 3 falló |
 | Onboarding abandonado | Se retoma en el paso donde quedó |
-| Setup con un paso fallido | Reintento visible; no se avanza a `/app` a medias |
+| Setup con un paso fallido | Reintento visible; no se avanza a `/{slug}` a medias |
 | Sesión expirada durante una venta | La venta se conserva en IndexedDB y se reenvía tras re-login |
 | Super-admin entrando a un tenant | Impersonación con banner permanente y registro en `audit_log` |
 | Usuario empleado | Entra con nombre de negocio + su usuario; sin cuestionarios |
@@ -435,6 +493,7 @@ Semana 1 = lunes 9 de noviembre de 2026. Un dev full-time.
 | Máquina de estados del tenant | Middleware redirige correctamente en los 4 estados |
 | RLS activo y probado | Test que demuestra que el tenant A no ve datos de B |
 | Design system mínimo (botones, inputs, tabla, modal) | Página de muestra usable |
+| Shell PWA: manifest, service worker, iconos | Instalable en Android y desktop |
 | Esqueleto del sitio único con mapa de rutas | `npm run build` produce **un** artefacto |
 
 ### Fase 1 — Experiencia de entrada (semanas 3–6)
@@ -444,9 +503,9 @@ Semana 1 = lunes 9 de noviembre de 2026. Un dev full-time.
 | Pantalla de login completa | 3 campos, errores genéricos, rate limit |
 | Cuestionario inicial (4 pasos, autosave) | Abandonar y retomar funciona |
 | Pantalla de preparación con pasos reales | < 8 s, reintento ante fallo |
-| Glifo geométrico (`packages/glyphs`) | 6 arquetipos × 5 densidades, SVG < 8 KB |
+| Glifo geométrico (`packages/glyphs`) | 10 arquetipos × 3 densidades × 4 paletas |
 | Hero + toolbar con 6 tarjetas | Exactamente 6, con métricas reales |
-| Shell de los 6 hubs | Navegación completa con estados vacíos |
+| Shell de los 6 hubs | Navegación completa con estados vacíos, usable en 375 px |
 
 **Riesgo:** no empezar features de venta antes de que el flujo de entrada esté cerrado. Es la primera impresión del producto.
 
@@ -462,7 +521,7 @@ Catálogo, inventario, venta completa, caja/turnos, tirilla, hardware.
 | Multi-pago (efectivo/tarjeta/transferencia) | Venta con 2 medios cuadra con el total |
 | Caja y turnos | Apertura → ventas → arqueo con diferencia calculada |
 | Impresión 80mm + cajón | Tirilla real en impresora de red |
-| Expo: venta rápida + escaneo | Vender desde el celular contra la misma API |
+| PWA en móvil | Instalar, vender y escanear con la cámara del celular |
 
 ### Fase 3 — Negocio completo (semanas 13–16) → **MVP funcional**
 
@@ -491,8 +550,8 @@ Catálogo, inventario, venta completa, caja/turnos, tirilla, hardware.
 
 - IA: insights proactivos, comparativos, alertas push.
 - Fiscal Colombia (DIAN) con proveedor autorizado.
-- App móvil completa: impresión Bluetooth, offline con SQLite, sync.
 - Restaurante en beta cerrada (mesas, comandas).
+- Impresión térmica Bluetooth en Android y modo offline robusto.
 
 ### Fase 6 — "Todo en uno" (mes 8 en adelante)
 
@@ -509,7 +568,9 @@ Catálogo, inventario, venta completa, caja/turnos, tirilla, hardware.
 |---|---|---|
 | Scope creep (el enemigo #1) | Mata el proyecto | Cada fase se lanza; lo nuevo entra a la fase siguiente, no a la actual |
 | LATAM fiscal (cada país es un proyecto) | Retraso de meses | `FiscalProvider` aislado; solo Colombia en fase 5 |
-| Internet caído en el local | Ventas perdidas | Cola de reintentos web + offline nativo en la app |
+| Internet caído en el local | Ventas perdidas | Cola de reintentos en IndexedDB + shell precacheado |
+| iOS no expone Bluetooth ni Serial | Sin impresión térmica en iPhone/iPad | Estandarizar tablet Android; en iOS, red o PDF |
+| PWA con almacenamiento limitado | Ventas perdidas al limpiar caché | Sincronización inmediata; la cola es respaldo, no fuente de verdad |
 | Impresión: drivers y modelos distintos | Soporte eterno | Red TCP 9100 como primario; lista de impresoras certificadas |
 | Costo LLM por tenant | Margen negativo | Capa semántica + cache + modelo pequeño para routing |
 | El glifo se vuelve un proyecto de arte | Semanas perdidas | Paramétrico y abstracto, 6 arquetipos, sin ilustración |
@@ -557,8 +618,12 @@ Catálogo, inventario, venta completa, caja/turnos, tirilla, hardware.
 | 0003 | Dinero en enteros menores | Evita errores de redondeo en impuestos |
 | 0004 | IA sobre capa semántica, no texto-a-SQL | Evita fuga entre tenants y alucinaciones |
 | 0005 | Impresión primaria por red TCP 9100 | WebUSB/WebSerial es frágil entre drivers |
-| 0006 | Expo desde el inicio | Requisito de producto; comparte `packages/core` |
+| 0006 | PWA única, sin app nativa | Un solo código, un solo deploy, cero tiendas de apps |
 | 0007 | Snapshot en líneas de venta | Histórico inmutable ante cambios de catálogo |
 | 0008 | Un solo build web, admin incluido | Un dominio, un deploy, sin CORS ni drift de versiones |
 | 0009 | Glifo paramétrico en SVG | Personalización a costo cero y sin dependencia de diseño |
 | 0010 | Login con slug de negocio, no email | El usuario recuerda su negocio, no un correo |
+| 0011 | TOTP en app autenticadora | Sin costo por mensaje y funciona sin internet |
+| 0012 | Slug como URL y como credencial | Una sola cosa que recordar; marca y SEO |
+| 0013 | Glifo de 10 arquetipos, no ilustraciones | Personalización real sin depender de diseño |
+| 0014 | Empleados con PIN, sin email | El cajero no tiene correo corporativo |
