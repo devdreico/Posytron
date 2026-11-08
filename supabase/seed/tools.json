@@ -1,0 +1,7452 @@
+[
+  {
+    "key": "caja.apertura_de_caja_con_base",
+    "name": "Apertura de caja con base",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 1
+  },
+  {
+    "key": "caja.cierre_de_turno_con_arqueo",
+    "name": "Cierre de turno con arqueo",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 2
+  },
+  {
+    "key": "caja.cierre_ciego_de_caja",
+    "name": "Cierre ciego de caja",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 3
+  },
+  {
+    "key": "caja.arqueo_por_denominacion",
+    "name": "Arqueo por denominación",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 4
+  },
+  {
+    "key": "caja.retiro_parcial_de_efectivo",
+    "name": "Retiro parcial de efectivo",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 5
+  },
+  {
+    "key": "caja.ingreso_de_efectivo_a_caja",
+    "name": "Ingreso de efectivo a caja",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 6
+  },
+  {
+    "key": "caja.anulacion_de_venta",
+    "name": "Anulación de venta",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 7
+  },
+  {
+    "key": "caja.devolucion_total",
+    "name": "Devolución total",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 8
+  },
+  {
+    "key": "caja.devolucion_parcial",
+    "name": "Devolución parcial",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 9
+  },
+  {
+    "key": "caja.venta_rapida_por_teclado",
+    "name": "Venta rápida por teclado",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 10
+  },
+  {
+    "key": "caja.venta_en_espera",
+    "name": "Venta en espera",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 11
+  },
+  {
+    "key": "caja.recuperar_venta_en_espera",
+    "name": "Recuperar venta en espera",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 12
+  },
+  {
+    "key": "caja.division_de_pago_en_dos_medios",
+    "name": "División de pago en dos medios",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 13
+  },
+  {
+    "key": "caja.cobro_mixto_efectivo_y_tarjeta",
+    "name": "Cobro mixto efectivo y tarjeta",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 14
+  },
+  {
+    "key": "caja.descuento_por_linea",
+    "name": "Descuento por línea",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 15
+  },
+  {
+    "key": "caja.descuento_por_total",
+    "name": "Descuento por total",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 16
+  },
+  {
+    "key": "caja.cupon_manual",
+    "name": "Cupón manual",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 17
+  },
+  {
+    "key": "caja.reimpresion_de_tirilla",
+    "name": "Reimpresión de tirilla",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 18
+  },
+  {
+    "key": "caja.envio_de_tirilla_por_whatsapp",
+    "name": "Envío de tirilla por WhatsApp",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 19
+  },
+  {
+    "key": "caja.envio_de_tirilla_por_correo",
+    "name": "Envío de tirilla por correo",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 20
+  },
+  {
+    "key": "caja.apertura_de_cajon_monedero",
+    "name": "Apertura de cajón monedero",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 21
+  },
+  {
+    "key": "caja.prueba_de_impresora",
+    "name": "Prueba de impresora",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 22
+  },
+  {
+    "key": "caja.ventas_del_turno",
+    "name": "Ventas del turno",
+    "description": "Consulta en vivo sobre tu operación.",
+    "category": "caja",
+    "kind": "query",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 23
+  },
+  {
+    "key": "caja.ventas_por_cajero",
+    "name": "Ventas por cajero",
+    "description": "Consulta en vivo sobre tu operación.",
+    "category": "caja",
+    "kind": "query",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 24
+  },
+  {
+    "key": "caja.ventas_por_metodo_de_pago",
+    "name": "Ventas por método de pago",
+    "description": "Consulta en vivo sobre tu operación.",
+    "category": "caja",
+    "kind": "query",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 25
+  },
+  {
+    "key": "caja.propinas",
+    "name": "Propinas",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 26
+  },
+  {
+    "key": "caja.redondeo_de_efectivo",
+    "name": "Redondeo de efectivo",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 27
+  },
+  {
+    "key": "caja.factura_interna",
+    "name": "Factura interna",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 28
+  },
+  {
+    "key": "caja.nota_de_credito_interna",
+    "name": "Nota de crédito interna",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 29
+  },
+  {
+    "key": "caja.registro_de_gasto_desde_caja",
+    "name": "Registro de gasto desde caja",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 30
+  },
+  {
+    "key": "caja.pago_a_proveedor_desde_caja",
+    "name": "Pago a proveedor desde caja",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 31
+  },
+  {
+    "key": "caja.cambio_de_turno_sin_cierre",
+    "name": "Cambio de turno sin cierre",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 32
+  },
+  {
+    "key": "caja.auditoria_de_diferencias",
+    "name": "Auditoría de diferencias",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "caja",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 33
+  },
+  {
+    "key": "caja.limite_de_descuento_por_rol",
+    "name": "Límite de descuento por rol",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 34
+  },
+  {
+    "key": "caja.autorizacion_de_supervisor",
+    "name": "Autorización de supervisor",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 35
+  },
+  {
+    "key": "caja.conteo_de_caja_rapido",
+    "name": "Conteo de caja rápido",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 36
+  },
+  {
+    "key": "caja.historial_de_arqueos",
+    "name": "Historial de arqueos",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "caja",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 37
+  },
+  {
+    "key": "caja.caja_por_sucursal",
+    "name": "Caja por sucursal",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 38
+  },
+  {
+    "key": "caja.comparativo_de_turnos",
+    "name": "Comparativo de turnos",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "caja",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 39
+  },
+  {
+    "key": "caja.ventas_por_hora",
+    "name": "Ventas por hora",
+    "description": "Consulta en vivo sobre tu operación.",
+    "category": "caja",
+    "kind": "query",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 40
+  },
+  {
+    "key": "caja.ticket_promedio_del_turno",
+    "name": "Ticket promedio del turno",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "caja",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 41
+  },
+  {
+    "key": "caja.productos_mas_vendidos_del_turno",
+    "name": "Productos más vendidos del turno",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "caja",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 42
+  },
+  {
+    "key": "caja.ventas_anuladas_del_dia",
+    "name": "Ventas anuladas del día",
+    "description": "Consulta en vivo sobre tu operación.",
+    "category": "caja",
+    "kind": "query",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 43
+  },
+  {
+    "key": "caja.control_de_cajon_abierto",
+    "name": "Control de cajón abierto",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 44
+  },
+  {
+    "key": "caja.cierre_con_resumen_por_correo",
+    "name": "Cierre con resumen por correo",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "caja",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia",
+      "licoreria",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 45
+  },
+  {
+    "key": "inventario.alta_de_producto",
+    "name": "Alta de producto",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 46
+  },
+  {
+    "key": "inventario.edicion_de_producto",
+    "name": "Edición de producto",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 47
+  },
+  {
+    "key": "inventario.baja_logica_de_producto",
+    "name": "Baja lógica de producto",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 48
+  },
+  {
+    "key": "inventario.importacion_de_productos_por_csv",
+    "name": "Importación de productos por CSV",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 49
+  },
+  {
+    "key": "inventario.exportacion_de_catalogo",
+    "name": "Exportación de catálogo",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 50
+  },
+  {
+    "key": "inventario.generacion_de_codigo_de_barras",
+    "name": "Generación de código de barras",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 51
+  },
+  {
+    "key": "inventario.impresion_de_etiquetas",
+    "name": "Impresión de etiquetas",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 52
+  },
+  {
+    "key": "inventario.ajuste_positivo_de_stock",
+    "name": "Ajuste positivo de stock",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 53
+  },
+  {
+    "key": "inventario.ajuste_negativo_de_stock",
+    "name": "Ajuste negativo de stock",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 54
+  },
+  {
+    "key": "inventario.conteo_ciclico",
+    "name": "Conteo cíclico",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 55
+  },
+  {
+    "key": "inventario.conteo_total",
+    "name": "Conteo total",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 56
+  },
+  {
+    "key": "inventario.transferencia_entre_sucursales",
+    "name": "Transferencia entre sucursales",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 57
+  },
+  {
+    "key": "inventario.traslado_a_bodega",
+    "name": "Traslado a bodega",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 58
+  },
+  {
+    "key": "inventario.merma_y_desperdicio",
+    "name": "Merma y desperdicio",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 59
+  },
+  {
+    "key": "inventario.producto_danado",
+    "name": "Producto dañado",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 60
+  },
+  {
+    "key": "inventario.reactivacion_de_producto",
+    "name": "Reactivación de producto",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 61
+  },
+  {
+    "key": "inventario.variantes_de_producto",
+    "name": "Variantes de producto",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 62
+  },
+  {
+    "key": "inventario.unidades_de_medida",
+    "name": "Unidades de medida",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 63
+  },
+  {
+    "key": "inventario.precio_por_sucursal",
+    "name": "Precio por sucursal",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 64
+  },
+  {
+    "key": "inventario.costo_promedio_ponderado",
+    "name": "Costo promedio ponderado",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 65
+  },
+  {
+    "key": "inventario.historial_de_movimientos",
+    "name": "Historial de movimientos",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "inventario",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 66
+  },
+  {
+    "key": "inventario.kardex_por_producto",
+    "name": "Kardex por producto",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 67
+  },
+  {
+    "key": "inventario.productos_bajo_minimo",
+    "name": "Productos bajo mínimo",
+    "description": "Consulta en vivo sobre tu operación.",
+    "category": "inventario",
+    "kind": "query",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 68
+  },
+  {
+    "key": "inventario.sugerencia_de_reposicion",
+    "name": "Sugerencia de reposición",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "inventario",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 69
+  },
+  {
+    "key": "inventario.rotacion_por_producto",
+    "name": "Rotación por producto",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "inventario",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 70
+  },
+  {
+    "key": "inventario.dias_de_inventario",
+    "name": "Días de inventario",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "inventario",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 71
+  },
+  {
+    "key": "inventario.inventario_valorizado",
+    "name": "Inventario valorizado",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "inventario",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 72
+  },
+  {
+    "key": "inventario.inventario_por_categoria",
+    "name": "Inventario por categoría",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 73
+  },
+  {
+    "key": "inventario.busqueda_por_escaner",
+    "name": "Búsqueda por escáner",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 74
+  },
+  {
+    "key": "inventario.busqueda_por_nombre",
+    "name": "Búsqueda por nombre",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 75
+  },
+  {
+    "key": "inventario.productos_sin_movimiento",
+    "name": "Productos sin movimiento",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 76
+  },
+  {
+    "key": "inventario.productos_sin_codigo",
+    "name": "Productos sin código",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 77
+  },
+  {
+    "key": "inventario.duplicados_de_codigo_de_barras",
+    "name": "Duplicados de código de barras",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 78
+  },
+  {
+    "key": "inventario.combos_y_kits",
+    "name": "Combos y kits",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 79
+  },
+  {
+    "key": "inventario.productos_a_granel",
+    "name": "Productos a granel",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 80
+  },
+  {
+    "key": "inventario.control_de_lotes",
+    "name": "Control de lotes",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 81
+  },
+  {
+    "key": "inventario.fechas_de_vencimiento",
+    "name": "Fechas de vencimiento",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 82
+  },
+  {
+    "key": "inventario.alertas_de_vencimiento",
+    "name": "Alertas de vencimiento",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "inventario",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 83
+  },
+  {
+    "key": "inventario.seriales_y_garantias",
+    "name": "Seriales y garantías",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 84
+  },
+  {
+    "key": "inventario.ubicacion_en_estante",
+    "name": "Ubicación en estante",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 85
+  },
+  {
+    "key": "inventario.etiquetas_por_categoria",
+    "name": "Etiquetas por categoría",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 86
+  },
+  {
+    "key": "inventario.actualizacion_masiva_de_precios",
+    "name": "Actualización masiva de precios",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 87
+  },
+  {
+    "key": "inventario.actualizacion_masiva_de_costos",
+    "name": "Actualización masiva de costos",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 88
+  },
+  {
+    "key": "inventario.stock_minimo_por_sucursal",
+    "name": "Stock mínimo por sucursal",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 89
+  },
+  {
+    "key": "inventario.conciliacion_de_inventario",
+    "name": "Conciliación de inventario",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "inventario",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 90
+  },
+  {
+    "key": "compras.orden_de_compra",
+    "name": "Orden de compra",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 91
+  },
+  {
+    "key": "compras.recepcion_total_de_orden",
+    "name": "Recepción total de orden",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 92
+  },
+  {
+    "key": "compras.recepcion_parcial",
+    "name": "Recepción parcial",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 93
+  },
+  {
+    "key": "compras.recepcion_sin_orden",
+    "name": "Recepción sin orden",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 94
+  },
+  {
+    "key": "compras.devolucion_a_proveedor",
+    "name": "Devolución a proveedor",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 95
+  },
+  {
+    "key": "compras.alta_de_proveedor",
+    "name": "Alta de proveedor",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 96
+  },
+  {
+    "key": "compras.edicion_de_proveedor",
+    "name": "Edición de proveedor",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 97
+  },
+  {
+    "key": "compras.baja_de_proveedor",
+    "name": "Baja de proveedor",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 98
+  },
+  {
+    "key": "compras.directorio_de_proveedores",
+    "name": "Directorio de proveedores",
+    "description": "Consulta en vivo sobre tu operación.",
+    "category": "compras",
+    "kind": "query",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 99
+  },
+  {
+    "key": "compras.comparador_de_proveedores",
+    "name": "Comparador de proveedores",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 100
+  },
+  {
+    "key": "compras.precio_historico_por_proveedor",
+    "name": "Precio histórico por proveedor",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 101
+  },
+  {
+    "key": "compras.orden_sugerida_por_rotacion",
+    "name": "Orden sugerida por rotación",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 102
+  },
+  {
+    "key": "compras.orden_sugerida_por_minimo",
+    "name": "Orden sugerida por mínimo",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 103
+  },
+  {
+    "key": "compras.costo_de_ultima_compra",
+    "name": "Costo de última compra",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 104
+  },
+  {
+    "key": "compras.actualizacion_de_costos",
+    "name": "Actualización de costos",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 105
+  },
+  {
+    "key": "compras.cuentas_por_pagar",
+    "name": "Cuentas por pagar",
+    "description": "Consulta en vivo sobre tu operación.",
+    "category": "compras",
+    "kind": "query",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 106
+  },
+  {
+    "key": "compras.pago_a_proveedor",
+    "name": "Pago a proveedor",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 107
+  },
+  {
+    "key": "compras.abono_a_proveedor",
+    "name": "Abono a proveedor",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 108
+  },
+  {
+    "key": "compras.anticipo_a_proveedor",
+    "name": "Anticipo a proveedor",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 109
+  },
+  {
+    "key": "compras.nota_de_credito_de_proveedor",
+    "name": "Nota de crédito de proveedor",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 110
+  },
+  {
+    "key": "compras.factura_de_compra",
+    "name": "Factura de compra",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 111
+  },
+  {
+    "key": "compras.importacion_de_factura",
+    "name": "Importación de factura",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 112
+  },
+  {
+    "key": "compras.lectura_de_factura_por_foto",
+    "name": "Lectura de factura por foto",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 113
+  },
+  {
+    "key": "compras.gasto_de_flete",
+    "name": "Gasto de flete",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 114
+  },
+  {
+    "key": "compras.costo_adicional_de_importacion",
+    "name": "Costo adicional de importación",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 115
+  },
+  {
+    "key": "compras.tiempo_de_entrega_por_proveedor",
+    "name": "Tiempo de entrega por proveedor",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 116
+  },
+  {
+    "key": "compras.cumplimiento_de_proveedor",
+    "name": "Cumplimiento de proveedor",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "compras",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 117
+  },
+  {
+    "key": "compras.proveedores_inactivos",
+    "name": "Proveedores inactivos",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 118
+  },
+  {
+    "key": "compras.compras_del_mes",
+    "name": "Compras del mes",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 119
+  },
+  {
+    "key": "compras.compras_por_categoria",
+    "name": "Compras por categoría",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 120
+  },
+  {
+    "key": "compras.rotacion_de_compras",
+    "name": "Rotación de compras",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "compras",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 121
+  },
+  {
+    "key": "compras.margen_despues_de_compra",
+    "name": "Margen después de compra",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "compras",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 122
+  },
+  {
+    "key": "compras.alerta_de_sobrestock",
+    "name": "Alerta de sobrestock",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "compras",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 123
+  },
+  {
+    "key": "compras.alerta_de_quiebre",
+    "name": "Alerta de quiebre",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "compras",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 124
+  },
+  {
+    "key": "compras.sugerencia_de_cantidad_optima",
+    "name": "Sugerencia de cantidad óptima",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "compras",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 125
+  },
+  {
+    "key": "compras.lote_economico_de_compra",
+    "name": "Lote económico de compra",
+    "description": "Calcula el número con tus propios datos.",
+    "category": "compras",
+    "kind": "calculator",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 126
+  },
+  {
+    "key": "compras.punto_de_reorden",
+    "name": "Punto de reorden",
+    "description": "Calcula el número con tus propios datos.",
+    "category": "compras",
+    "kind": "calculator",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 127
+  },
+  {
+    "key": "compras.contratos_y_condiciones",
+    "name": "Contratos y condiciones",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 128
+  },
+  {
+    "key": "compras.evaluacion_de_proveedor",
+    "name": "Evaluación de proveedor",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "compras",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 129
+  },
+  {
+    "key": "compras.exportacion_de_compras",
+    "name": "Exportación de compras",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "compras",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "restaurante",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 130
+  },
+  {
+    "key": "clientes.alta_de_cliente",
+    "name": "Alta de cliente",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 131
+  },
+  {
+    "key": "clientes.edicion_de_cliente",
+    "name": "Edición de cliente",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 132
+  },
+  {
+    "key": "clientes.baja_de_cliente",
+    "name": "Baja de cliente",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 133
+  },
+  {
+    "key": "clientes.busqueda_por_telefono",
+    "name": "Búsqueda por teléfono",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 134
+  },
+  {
+    "key": "clientes.historial_de_compras",
+    "name": "Historial de compras",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "clientes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 135
+  },
+  {
+    "key": "clientes.frecuencia_de_compra",
+    "name": "Frecuencia de compra",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 136
+  },
+  {
+    "key": "clientes.ultima_compra",
+    "name": "Última compra",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 137
+  },
+  {
+    "key": "clientes.ticket_promedio_del_cliente",
+    "name": "Ticket promedio del cliente",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "clientes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 138
+  },
+  {
+    "key": "clientes.cupo_de_credito",
+    "name": "Cupo de crédito",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 139
+  },
+  {
+    "key": "clientes.ajuste_de_cupo",
+    "name": "Ajuste de cupo",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 140
+  },
+  {
+    "key": "clientes.venta_a_credito",
+    "name": "Venta a crédito",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 141
+  },
+  {
+    "key": "clientes.abono_de_cliente",
+    "name": "Abono de cliente",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 142
+  },
+  {
+    "key": "clientes.estado_de_cuenta",
+    "name": "Estado de cuenta",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "clientes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 143
+  },
+  {
+    "key": "clientes.cobranza_del_dia",
+    "name": "Cobranza del día",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 144
+  },
+  {
+    "key": "clientes.clientes_en_mora",
+    "name": "Clientes en mora",
+    "description": "Consulta en vivo sobre tu operación.",
+    "category": "clientes",
+    "kind": "query",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 145
+  },
+  {
+    "key": "clientes.antiguedad_de_cartera",
+    "name": "Antigüedad de cartera",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "clientes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 146
+  },
+  {
+    "key": "clientes.recordatorio_de_pago",
+    "name": "Recordatorio de pago",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "clientes",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 147
+  },
+  {
+    "key": "clientes.segmentacion_rfm",
+    "name": "Segmentación RFM",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 148
+  },
+  {
+    "key": "clientes.clientes_nuevos_del_mes",
+    "name": "Clientes nuevos del mes",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 149
+  },
+  {
+    "key": "clientes.clientes_inactivos",
+    "name": "Clientes inactivos",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 150
+  },
+  {
+    "key": "clientes.clientes_frecuentes",
+    "name": "Clientes frecuentes",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 151
+  },
+  {
+    "key": "clientes.clientes_por_categoria",
+    "name": "Clientes por categoría",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 152
+  },
+  {
+    "key": "clientes.cumpleanos_del_mes",
+    "name": "Cumpleaños del mes",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 153
+  },
+  {
+    "key": "clientes.programa_de_puntos",
+    "name": "Programa de puntos",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 154
+  },
+  {
+    "key": "clientes.canje_de_puntos",
+    "name": "Canje de puntos",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 155
+  },
+  {
+    "key": "clientes.cupon_de_bienvenida",
+    "name": "Cupón de bienvenida",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 156
+  },
+  {
+    "key": "clientes.cupon_de_cumpleanos",
+    "name": "Cupón de cumpleaños",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 157
+  },
+  {
+    "key": "clientes.cupon_de_reactivacion",
+    "name": "Cupón de reactivación",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 158
+  },
+  {
+    "key": "clientes.lista_de_precios_por_cliente",
+    "name": "Lista de precios por cliente",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 159
+  },
+  {
+    "key": "clientes.descuento_permanente",
+    "name": "Descuento permanente",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 160
+  },
+  {
+    "key": "clientes.cliente_mayorista",
+    "name": "Cliente mayorista",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 161
+  },
+  {
+    "key": "clientes.datos_de_facturacion",
+    "name": "Datos de facturación",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 162
+  },
+  {
+    "key": "clientes.consentimiento_de_datos",
+    "name": "Consentimiento de datos",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 163
+  },
+  {
+    "key": "clientes.exportacion_de_clientes",
+    "name": "Exportación de clientes",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 164
+  },
+  {
+    "key": "clientes.importacion_de_clientes",
+    "name": "Importación de clientes",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 165
+  },
+  {
+    "key": "clientes.fusion_de_clientes_duplicados",
+    "name": "Fusión de clientes duplicados",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 166
+  },
+  {
+    "key": "clientes.notas_por_cliente",
+    "name": "Notas por cliente",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 167
+  },
+  {
+    "key": "clientes.etiquetas_de_cliente",
+    "name": "Etiquetas de cliente",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 168
+  },
+  {
+    "key": "clientes.cliente_sin_compras",
+    "name": "Cliente sin compras",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "clientes",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 169
+  },
+  {
+    "key": "clientes.ranking_de_clientes",
+    "name": "Ranking de clientes",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "clientes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 170
+  },
+  {
+    "key": "finanzas.registro_de_gasto",
+    "name": "Registro de gasto",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "finanzas",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 171
+  },
+  {
+    "key": "finanzas.categorias_de_gasto",
+    "name": "Categorías de gasto",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "finanzas",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 172
+  },
+  {
+    "key": "finanzas.gastos_del_mes",
+    "name": "Gastos del mes",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "finanzas",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 173
+  },
+  {
+    "key": "finanzas.utilidad_bruta",
+    "name": "Utilidad bruta",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "finanzas",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 174
+  },
+  {
+    "key": "finanzas.utilidad_neta",
+    "name": "Utilidad neta",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "finanzas",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 175
+  },
+  {
+    "key": "finanzas.margen_por_producto",
+    "name": "Margen por producto",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "finanzas",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 176
+  },
+  {
+    "key": "finanzas.margen_por_categoria",
+    "name": "Margen por categoría",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "finanzas",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 177
+  },
+  {
+    "key": "finanzas.punto_de_equilibrio",
+    "name": "Punto de equilibrio",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "finanzas",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 178
+  },
+  {
+    "key": "finanzas.flujo_de_caja_proyectado",
+    "name": "Flujo de caja proyectado",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "finanzas",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 179
+  },
+  {
+    "key": "finanzas.cierre_contable_del_mes",
+    "name": "Cierre contable del mes",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "finanzas",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 180
+  },
+  {
+    "key": "finanzas.conciliacion_bancaria_simple",
+    "name": "Conciliación bancaria simple",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "finanzas",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 181
+  },
+  {
+    "key": "finanzas.cuentas_por_cobrar",
+    "name": "Cuentas por cobrar",
+    "description": "Consulta en vivo sobre tu operación.",
+    "category": "finanzas",
+    "kind": "query",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 182
+  },
+  {
+    "key": "finanzas.cuentas_por_pagar",
+    "name": "Cuentas por pagar",
+    "description": "Consulta en vivo sobre tu operación.",
+    "category": "finanzas",
+    "kind": "query",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 183
+  },
+  {
+    "key": "finanzas.antiguedad_de_saldos",
+    "name": "Antigüedad de saldos",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "finanzas",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 184
+  },
+  {
+    "key": "finanzas.presupuesto_mensual",
+    "name": "Presupuesto mensual",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "finanzas",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 185
+  },
+  {
+    "key": "finanzas.desviacion_de_presupuesto",
+    "name": "Desviación de presupuesto",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "finanzas",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 186
+  },
+  {
+    "key": "finanzas.gastos_fijos",
+    "name": "Gastos fijos",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "finanzas",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 187
+  },
+  {
+    "key": "finanzas.gastos_variables",
+    "name": "Gastos variables",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "finanzas",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 188
+  },
+  {
+    "key": "finanzas.costo_de_ventas",
+    "name": "Costo de ventas",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "finanzas",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 189
+  },
+  {
+    "key": "finanzas.resultado_por_sucursal",
+    "name": "Resultado por sucursal",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "finanzas",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 190
+  },
+  {
+    "key": "finanzas.rentabilidad_por_canal",
+    "name": "Rentabilidad por canal",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "finanzas",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 191
+  },
+  {
+    "key": "finanzas.ticket_promedio",
+    "name": "Ticket promedio",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "finanzas",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 192
+  },
+  {
+    "key": "finanzas.ventas_por_metro_cuadrado",
+    "name": "Ventas por metro cuadrado",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "finanzas",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 193
+  },
+  {
+    "key": "finanzas.ventas_por_empleado",
+    "name": "Ventas por empleado",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "finanzas",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 194
+  },
+  {
+    "key": "finanzas.indicadores_del_mes",
+    "name": "Indicadores del mes",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "finanzas",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 195
+  },
+  {
+    "key": "finanzas.proyeccion_de_ventas",
+    "name": "Proyección de ventas",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "finanzas",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 196
+  },
+  {
+    "key": "finanzas.simulador_de_precios",
+    "name": "Simulador de precios",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "finanzas",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 197
+  },
+  {
+    "key": "finanzas.simulador_de_descuentos",
+    "name": "Simulador de descuentos",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "finanzas",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 198
+  },
+  {
+    "key": "finanzas.analisis_de_punto_de_pedido",
+    "name": "Análisis de punto de pedido",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "finanzas",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 199
+  },
+  {
+    "key": "finanzas.reporte_para_contador",
+    "name": "Reporte para contador",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "finanzas",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 200
+  },
+  {
+    "key": "finanzas.exportacion_contable",
+    "name": "Exportación contable",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "finanzas",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 201
+  },
+  {
+    "key": "finanzas.impuestos_estimados",
+    "name": "Impuestos estimados",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "finanzas",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 202
+  },
+  {
+    "key": "finanzas.retenciones_estimadas",
+    "name": "Retenciones estimadas",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "finanzas",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 203
+  },
+  {
+    "key": "finanzas.nota_de_ajuste",
+    "name": "Nota de ajuste",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "finanzas",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 204
+  },
+  {
+    "key": "finanzas.cierre_de_ejercicio",
+    "name": "Cierre de ejercicio",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "finanzas",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 205
+  },
+  {
+    "key": "precios.lista_de_precios",
+    "name": "Lista de precios",
+    "description": "Consulta en vivo sobre tu operación.",
+    "category": "precios",
+    "kind": "query",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 206
+  },
+  {
+    "key": "precios.nueva_lista_de_precios",
+    "name": "Nueva lista de precios",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "precios",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 207
+  },
+  {
+    "key": "precios.precio_por_sucursal",
+    "name": "Precio por sucursal",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "precios",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 208
+  },
+  {
+    "key": "precios.precio_por_canal",
+    "name": "Precio por canal",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "precios",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 209
+  },
+  {
+    "key": "precios.precio_mayorista",
+    "name": "Precio mayorista",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "precios",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 210
+  },
+  {
+    "key": "precios.regla_de_precio_automatico",
+    "name": "Regla de precio automático",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "precios",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 211
+  },
+  {
+    "key": "precios.margen_objetivo",
+    "name": "Margen objetivo",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "precios",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 212
+  },
+  {
+    "key": "precios.actualizacion_por_inflacion",
+    "name": "Actualización por inflación",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "precios",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 213
+  },
+  {
+    "key": "precios.redondeo_psicologico",
+    "name": "Redondeo psicológico",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "precios",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 214
+  },
+  {
+    "key": "precios.precio_de_combo",
+    "name": "Precio de combo",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "precios",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 215
+  },
+  {
+    "key": "precios.promocion_2x1",
+    "name": "Promoción 2x1",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "precios",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 216
+  },
+  {
+    "key": "precios.descuento_por_volumen",
+    "name": "Descuento por volumen",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "precios",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 217
+  },
+  {
+    "key": "precios.precio_de_temporada",
+    "name": "Precio de temporada",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "precios",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 218
+  },
+  {
+    "key": "precios.precio_de_liquidacion",
+    "name": "Precio de liquidación",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "precios",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 219
+  },
+  {
+    "key": "precios.precio_minimo_autorizado",
+    "name": "Precio mínimo autorizado",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "precios",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 220
+  },
+  {
+    "key": "precios.alerta_de_margen_negativo",
+    "name": "Alerta de margen negativo",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "precios",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 221
+  },
+  {
+    "key": "precios.comparacion_con_competencia",
+    "name": "Comparación con competencia",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "precios",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 222
+  },
+  {
+    "key": "precios.historial_de_precios",
+    "name": "Historial de precios",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "precios",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 223
+  },
+  {
+    "key": "precios.aprobacion_de_cambio_de_precio",
+    "name": "Aprobación de cambio de precio",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "precios",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 224
+  },
+  {
+    "key": "precios.etiquetas_de_precio",
+    "name": "Etiquetas de precio",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "precios",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 225
+  },
+  {
+    "key": "precios.precio_con_impuesto_incluido",
+    "name": "Precio con impuesto incluido",
+    "description": "Calcula el número con tus propios datos.",
+    "category": "precios",
+    "kind": "calculator",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 226
+  },
+  {
+    "key": "precios.precio_sin_impuesto",
+    "name": "Precio sin impuesto",
+    "description": "Calcula el número con tus propios datos.",
+    "category": "precios",
+    "kind": "calculator",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 227
+  },
+  {
+    "key": "precios.simulacion_de_elasticidad",
+    "name": "Simulación de elasticidad",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "precios",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 228
+  },
+  {
+    "key": "precios.precio_de_costo_mas_margen",
+    "name": "Precio de costo más margen",
+    "description": "Calcula el número con tus propios datos.",
+    "category": "precios",
+    "kind": "calculator",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 229
+  },
+  {
+    "key": "precios.precio_por_cliente",
+    "name": "Precio por cliente",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "precios",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 230
+  },
+  {
+    "key": "precios.precio_de_servicios",
+    "name": "Precio de servicios",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "precios",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 231
+  },
+  {
+    "key": "precios.precio_de_delivery",
+    "name": "Precio de delivery",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "precios",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 232
+  },
+  {
+    "key": "precios.precio_de_mayoreo_escalonado",
+    "name": "Precio de mayoreo escalonado",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "precios",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 233
+  },
+  {
+    "key": "precios.vigencia_de_promocion",
+    "name": "Vigencia de promoción",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "precios",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 234
+  },
+  {
+    "key": "precios.reversion_de_precios",
+    "name": "Reversión de precios",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "precios",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "farmacia",
+      "ferreteria",
+      "panaderia",
+      "licoreria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 235
+  },
+  {
+    "key": "reportes.reporte_de_ventas_por_dia",
+    "name": "Reporte de ventas por día",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 236
+  },
+  {
+    "key": "reportes.reporte_de_ventas_por_categoria",
+    "name": "Reporte de ventas por categoría",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 237
+  },
+  {
+    "key": "reportes.reporte_de_ventas_por_producto",
+    "name": "Reporte de ventas por producto",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 238
+  },
+  {
+    "key": "reportes.reporte_de_ventas_por_sucursal",
+    "name": "Reporte de ventas por sucursal",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 239
+  },
+  {
+    "key": "reportes.reporte_de_margen_por_dia",
+    "name": "Reporte de margen por día",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 240
+  },
+  {
+    "key": "reportes.reporte_de_margen_por_categoria",
+    "name": "Reporte de margen por categoría",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 241
+  },
+  {
+    "key": "reportes.reporte_de_margen_por_producto",
+    "name": "Reporte de margen por producto",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 242
+  },
+  {
+    "key": "reportes.reporte_de_margen_por_sucursal",
+    "name": "Reporte de margen por sucursal",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 243
+  },
+  {
+    "key": "reportes.reporte_de_unidades_vendidas_por_dia",
+    "name": "Reporte de unidades vendidas por día",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 244
+  },
+  {
+    "key": "reportes.reporte_de_unidades_vendidas_por_categoria",
+    "name": "Reporte de unidades vendidas por categoría",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 245
+  },
+  {
+    "key": "reportes.reporte_de_unidades_vendidas_por_producto",
+    "name": "Reporte de unidades vendidas por producto",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 246
+  },
+  {
+    "key": "reportes.reporte_de_unidades_vendidas_por_sucursal",
+    "name": "Reporte de unidades vendidas por sucursal",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 247
+  },
+  {
+    "key": "reportes.reporte_de_ticket_promedio_por_dia",
+    "name": "Reporte de ticket promedio por día",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 248
+  },
+  {
+    "key": "reportes.reporte_de_ticket_promedio_por_categoria",
+    "name": "Reporte de ticket promedio por categoría",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 249
+  },
+  {
+    "key": "reportes.reporte_de_ticket_promedio_por_producto",
+    "name": "Reporte de ticket promedio por producto",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 250
+  },
+  {
+    "key": "reportes.reporte_de_ticket_promedio_por_sucursal",
+    "name": "Reporte de ticket promedio por sucursal",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 251
+  },
+  {
+    "key": "reportes.reporte_de_devoluciones_por_dia",
+    "name": "Reporte de devoluciones por día",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 252
+  },
+  {
+    "key": "reportes.reporte_de_devoluciones_por_categoria",
+    "name": "Reporte de devoluciones por categoría",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 253
+  },
+  {
+    "key": "reportes.reporte_de_devoluciones_por_producto",
+    "name": "Reporte de devoluciones por producto",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 254
+  },
+  {
+    "key": "reportes.reporte_de_devoluciones_por_sucursal",
+    "name": "Reporte de devoluciones por sucursal",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 255
+  },
+  {
+    "key": "reportes.reporte_de_gastos_por_dia",
+    "name": "Reporte de gastos por día",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 256
+  },
+  {
+    "key": "reportes.reporte_de_gastos_por_categoria",
+    "name": "Reporte de gastos por categoría",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 257
+  },
+  {
+    "key": "reportes.reporte_de_gastos_por_producto",
+    "name": "Reporte de gastos por producto",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 258
+  },
+  {
+    "key": "reportes.reporte_de_gastos_por_sucursal",
+    "name": "Reporte de gastos por sucursal",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 259
+  },
+  {
+    "key": "reportes.reporte_de_utilidad_por_dia",
+    "name": "Reporte de utilidad por día",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 260
+  },
+  {
+    "key": "reportes.reporte_de_utilidad_por_categoria",
+    "name": "Reporte de utilidad por categoría",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 261
+  },
+  {
+    "key": "reportes.reporte_de_utilidad_por_producto",
+    "name": "Reporte de utilidad por producto",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 262
+  },
+  {
+    "key": "reportes.reporte_de_utilidad_por_sucursal",
+    "name": "Reporte de utilidad por sucursal",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 263
+  },
+  {
+    "key": "reportes.reporte_de_rotacion_por_dia",
+    "name": "Reporte de rotación por día",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 264
+  },
+  {
+    "key": "reportes.reporte_de_rotacion_por_categoria",
+    "name": "Reporte de rotación por categoría",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 265
+  },
+  {
+    "key": "reportes.reporte_de_rotacion_por_producto",
+    "name": "Reporte de rotación por producto",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 266
+  },
+  {
+    "key": "reportes.reporte_de_rotacion_por_sucursal",
+    "name": "Reporte de rotación por sucursal",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 267
+  },
+  {
+    "key": "reportes.reporte_de_quiebre_por_dia",
+    "name": "Reporte de quiebre por día",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 268
+  },
+  {
+    "key": "reportes.reporte_de_quiebre_por_categoria",
+    "name": "Reporte de quiebre por categoría",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 269
+  },
+  {
+    "key": "reportes.reporte_de_quiebre_por_producto",
+    "name": "Reporte de quiebre por producto",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 270
+  },
+  {
+    "key": "reportes.reporte_de_quiebre_por_sucursal",
+    "name": "Reporte de quiebre por sucursal",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 271
+  },
+  {
+    "key": "reportes.reporte_de_cartera_por_dia",
+    "name": "Reporte de cartera por día",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 272
+  },
+  {
+    "key": "reportes.reporte_de_cartera_por_categoria",
+    "name": "Reporte de cartera por categoría",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 273
+  },
+  {
+    "key": "reportes.reporte_de_cartera_por_producto",
+    "name": "Reporte de cartera por producto",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 274
+  },
+  {
+    "key": "reportes.reporte_de_cartera_por_sucursal",
+    "name": "Reporte de cartera por sucursal",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "reportes",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 275
+  },
+  {
+    "key": "automatizaciones.reposicion_automatica_por_minimo",
+    "name": "Reposición automática por mínimo",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 276
+  },
+  {
+    "key": "automatizaciones.alerta_de_stock_bajo",
+    "name": "Alerta de stock bajo",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 277
+  },
+  {
+    "key": "automatizaciones.alerta_de_margen_negativo",
+    "name": "Alerta de margen negativo",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 278
+  },
+  {
+    "key": "automatizaciones.alerta_de_venta_inusual",
+    "name": "Alerta de venta inusual",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 279
+  },
+  {
+    "key": "automatizaciones.cierre_de_caja_programado",
+    "name": "Cierre de caja programado",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 280
+  },
+  {
+    "key": "automatizaciones.respaldo_diario",
+    "name": "Respaldo diario",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 281
+  },
+  {
+    "key": "automatizaciones.recordatorio_de_conteo_semanal",
+    "name": "Recordatorio de conteo semanal",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 282
+  },
+  {
+    "key": "automatizaciones.aviso_de_vencimiento_de_lote",
+    "name": "Aviso de vencimiento de lote",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 283
+  },
+  {
+    "key": "automatizaciones.aviso_de_cliente_en_mora",
+    "name": "Aviso de cliente en mora",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 284
+  },
+  {
+    "key": "automatizaciones.reactivacion_de_cliente_inactivo",
+    "name": "Reactivación de cliente inactivo",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "automatizaciones",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 285
+  },
+  {
+    "key": "automatizaciones.envio_de_reporte_diario",
+    "name": "Envío de reporte diario",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "automatizaciones",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 286
+  },
+  {
+    "key": "automatizaciones.envio_de_reporte_semanal",
+    "name": "Envío de reporte semanal",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "automatizaciones",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 287
+  },
+  {
+    "key": "automatizaciones.resumen_mensual_por_correo",
+    "name": "Resumen mensual por correo",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "automatizaciones",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 288
+  },
+  {
+    "key": "automatizaciones.alerta_de_producto_sin_movimiento",
+    "name": "Alerta de producto sin movimiento",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 289
+  },
+  {
+    "key": "automatizaciones.alerta_de_proveedor_retrasado",
+    "name": "Alerta de proveedor retrasado",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 290
+  },
+  {
+    "key": "automatizaciones.regla_de_descuento_automatico",
+    "name": "Regla de descuento automático",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 291
+  },
+  {
+    "key": "automatizaciones.ajuste_por_inflacion_programado",
+    "name": "Ajuste por inflación programado",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 292
+  },
+  {
+    "key": "automatizaciones.rotacion_de_precios_de_promo",
+    "name": "Rotación de precios de promo",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "automatizaciones",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 293
+  },
+  {
+    "key": "automatizaciones.alerta_de_caja_sin_cerrar",
+    "name": "Alerta de caja sin cerrar",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 294
+  },
+  {
+    "key": "automatizaciones.bloqueo_por_cupo_excedido",
+    "name": "Bloqueo por cupo excedido",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 295
+  },
+  {
+    "key": "automatizaciones.aviso_de_turno_sin_arqueo",
+    "name": "Aviso de turno sin arqueo",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 296
+  },
+  {
+    "key": "automatizaciones.deteccion_de_duplicados",
+    "name": "Detección de duplicados",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 297
+  },
+  {
+    "key": "automatizaciones.limpieza_de_borradores",
+    "name": "Limpieza de borradores",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 298
+  },
+  {
+    "key": "automatizaciones.sugerencia_de_compra_semanal",
+    "name": "Sugerencia de compra semanal",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 299
+  },
+  {
+    "key": "automatizaciones.alerta_de_quiebre_proyectado",
+    "name": "Alerta de quiebre proyectado",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 300
+  },
+  {
+    "key": "automatizaciones.aviso_de_pago_a_proveedor",
+    "name": "Aviso de pago a proveedor",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 301
+  },
+  {
+    "key": "automatizaciones.recordatorio_de_impuestos",
+    "name": "Recordatorio de impuestos",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 302
+  },
+  {
+    "key": "automatizaciones.alerta_de_contrasena_debil",
+    "name": "Alerta de contraseña débil",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 303
+  },
+  {
+    "key": "automatizaciones.revision_de_permisos",
+    "name": "Revisión de permisos",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 304
+  },
+  {
+    "key": "automatizaciones.auditoria_programada",
+    "name": "Auditoría programada",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "automatizaciones",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 305
+  },
+  {
+    "key": "marketing.plantilla_de_whatsapp",
+    "name": "Plantilla de WhatsApp",
+    "description": "Guía paso a paso con seguimiento.",
+    "category": "marketing",
+    "kind": "playbook",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 306
+  },
+  {
+    "key": "marketing.envio_masivo_de_whatsapp",
+    "name": "Envío masivo de WhatsApp",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "marketing",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 307
+  },
+  {
+    "key": "marketing.campana_a_clientes_inactivos",
+    "name": "Campaña a clientes inactivos",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "marketing",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 308
+  },
+  {
+    "key": "marketing.campana_de_cumpleanos",
+    "name": "Campaña de cumpleaños",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "marketing",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 309
+  },
+  {
+    "key": "marketing.campana_de_bienvenida",
+    "name": "Campaña de bienvenida",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "marketing",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 310
+  },
+  {
+    "key": "marketing.codigo_qr_de_resena",
+    "name": "Código QR de reseña",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "marketing",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 311
+  },
+  {
+    "key": "marketing.enlace_de_catalogo_publico",
+    "name": "Enlace de catálogo público",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "marketing",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 312
+  },
+  {
+    "key": "marketing.publicacion_de_promocion",
+    "name": "Publicación de promoción",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "marketing",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 313
+  },
+  {
+    "key": "marketing.cupon_de_referido",
+    "name": "Cupón de referido",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "marketing",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 314
+  },
+  {
+    "key": "marketing.programa_de_referidos",
+    "name": "Programa de referidos",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "marketing",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 315
+  },
+  {
+    "key": "marketing.encuesta_de_satisfaccion",
+    "name": "Encuesta de satisfacción",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "marketing",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 316
+  },
+  {
+    "key": "marketing.recordatorio_de_recompra",
+    "name": "Recordatorio de recompra",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "marketing",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 317
+  },
+  {
+    "key": "marketing.mensaje_de_carrito_abandonado",
+    "name": "Mensaje de carrito abandonado",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "marketing",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 318
+  },
+  {
+    "key": "marketing.aviso_de_nueva_sucursal",
+    "name": "Aviso de nueva sucursal",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "marketing",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 319
+  },
+  {
+    "key": "marketing.aviso_de_horario_especial",
+    "name": "Aviso de horario especial",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "marketing",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 320
+  },
+  {
+    "key": "marketing.segmento_por_gasto",
+    "name": "Segmento por gasto",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "marketing",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 321
+  },
+  {
+    "key": "marketing.segmento_por_frecuencia",
+    "name": "Segmento por frecuencia",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "marketing",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 322
+  },
+  {
+    "key": "marketing.segmento_por_producto",
+    "name": "Segmento por producto",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "marketing",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 323
+  },
+  {
+    "key": "marketing.generador_de_textos_de_promo",
+    "name": "Generador de textos de promo",
+    "description": "Guía paso a paso con seguimiento.",
+    "category": "marketing",
+    "kind": "playbook",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 324
+  },
+  {
+    "key": "marketing.calendario_de_campanas",
+    "name": "Calendario de campañas",
+    "description": "Guía paso a paso con seguimiento.",
+    "category": "marketing",
+    "kind": "playbook",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 325
+  },
+  {
+    "key": "marketing.medicion_de_campana",
+    "name": "Medición de campaña",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "marketing",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 326
+  },
+  {
+    "key": "marketing.cupon_de_recuperacion",
+    "name": "Cupón de recuperación",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "marketing",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 327
+  },
+  {
+    "key": "marketing.mensaje_de_agradecimiento",
+    "name": "Mensaje de agradecimiento",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "marketing",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 328
+  },
+  {
+    "key": "marketing.encuesta_rapida_de_producto",
+    "name": "Encuesta rápida de producto",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "marketing",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 329
+  },
+  {
+    "key": "marketing.reporte_de_reputacion",
+    "name": "Reporte de reputación",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "marketing",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "cafeteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 330
+  },
+  {
+    "key": "equipo.alta_de_empleado",
+    "name": "Alta de empleado",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "equipo",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 331
+  },
+  {
+    "key": "equipo.baja_de_empleado",
+    "name": "Baja de empleado",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "equipo",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 332
+  },
+  {
+    "key": "equipo.edicion_de_empleado",
+    "name": "Edición de empleado",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "equipo",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 333
+  },
+  {
+    "key": "equipo.rol_y_permisos",
+    "name": "Rol y permisos",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "equipo",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 334
+  },
+  {
+    "key": "equipo.pin_de_acceso",
+    "name": "PIN de acceso",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "equipo",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 335
+  },
+  {
+    "key": "equipo.rotacion_de_pin",
+    "name": "Rotación de PIN",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "equipo",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 336
+  },
+  {
+    "key": "equipo.bloqueo_de_empleado",
+    "name": "Bloqueo de empleado",
+    "description": "Se ejecuta sola cuando se cumple la condición.",
+    "category": "equipo",
+    "kind": "automation",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 4,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 337
+  },
+  {
+    "key": "equipo.desbloqueo_de_empleado",
+    "name": "Desbloqueo de empleado",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "equipo",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 338
+  },
+  {
+    "key": "equipo.turnos_del_equipo",
+    "name": "Turnos del equipo",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "equipo",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 339
+  },
+  {
+    "key": "equipo.horario_semanal",
+    "name": "Horario semanal",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "equipo",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 340
+  },
+  {
+    "key": "equipo.control_de_asistencia",
+    "name": "Control de asistencia",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "equipo",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 341
+  },
+  {
+    "key": "equipo.comisiones_por_venta",
+    "name": "Comisiones por venta",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "equipo",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 342
+  },
+  {
+    "key": "equipo.comisiones_por_producto",
+    "name": "Comisiones por producto",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "equipo",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 343
+  },
+  {
+    "key": "equipo.metas_por_empleado",
+    "name": "Metas por empleado",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "equipo",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 344
+  },
+  {
+    "key": "equipo.ranking_de_vendedores",
+    "name": "Ranking de vendedores",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "equipo",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 345
+  },
+  {
+    "key": "equipo.productividad_por_hora",
+    "name": "Productividad por hora",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "equipo",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 346
+  },
+  {
+    "key": "equipo.capacitacion_interna",
+    "name": "Capacitación interna",
+    "description": "Guía paso a paso con seguimiento.",
+    "category": "equipo",
+    "kind": "playbook",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 347
+  },
+  {
+    "key": "equipo.checklist_de_apertura",
+    "name": "Checklist de apertura",
+    "description": "Guía paso a paso con seguimiento.",
+    "category": "equipo",
+    "kind": "playbook",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 348
+  },
+  {
+    "key": "equipo.checklist_de_cierre",
+    "name": "Checklist de cierre",
+    "description": "Guía paso a paso con seguimiento.",
+    "category": "equipo",
+    "kind": "playbook",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 349
+  },
+  {
+    "key": "equipo.asignacion_de_caja",
+    "name": "Asignación de caja",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "equipo",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 350
+  },
+  {
+    "key": "equipo.historial_de_accesos",
+    "name": "Historial de accesos",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "equipo",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 351
+  },
+  {
+    "key": "equipo.auditoria_por_empleado",
+    "name": "Auditoría por empleado",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "equipo",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 352
+  },
+  {
+    "key": "equipo.venta_por_empleado",
+    "name": "Venta por empleado",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "equipo",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 353
+  },
+  {
+    "key": "equipo.propinas_por_empleado",
+    "name": "Propinas por empleado",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "equipo",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 354
+  },
+  {
+    "key": "equipo.desempeno_del_equipo",
+    "name": "Desempeño del equipo",
+    "description": "Reporte generado con tus datos, exportable a CSV.",
+    "category": "equipo",
+    "kind": "report",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 355
+  },
+  {
+    "key": "integraciones.conectar_whatsapp_business",
+    "name": "Conectar WhatsApp Business",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 356
+  },
+  {
+    "key": "integraciones.conectar_google_sheets",
+    "name": "Conectar Google Sheets",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 357
+  },
+  {
+    "key": "integraciones.conectar_mercadopago",
+    "name": "Conectar MercadoPago",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 358
+  },
+  {
+    "key": "integraciones.conectar_pasarela_de_tarjetas",
+    "name": "Conectar pasarela de tarjetas",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 359
+  },
+  {
+    "key": "integraciones.conectar_dian",
+    "name": "Conectar DIAN",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "premium",
+    "aiEnabled": true,
+    "index": 360
+  },
+  {
+    "key": "integraciones.conectar_impresora_de_red",
+    "name": "Conectar impresora de red",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 361
+  },
+  {
+    "key": "integraciones.conectar_lector_de_barras",
+    "name": "Conectar lector de barras",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 362
+  },
+  {
+    "key": "integraciones.conectar_bascula",
+    "name": "Conectar báscula",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 363
+  },
+  {
+    "key": "integraciones.conectar_datafono",
+    "name": "Conectar datáfono",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 364
+  },
+  {
+    "key": "integraciones.webhook_de_ventas",
+    "name": "Webhook de ventas",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 365
+  },
+  {
+    "key": "integraciones.api_key_de_integracion",
+    "name": "API key de integración",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 366
+  },
+  {
+    "key": "integraciones.exportar_a_contabilidad",
+    "name": "Exportar a contabilidad",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 367
+  },
+  {
+    "key": "integraciones.importar_desde_excel",
+    "name": "Importar desde Excel",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 368
+  },
+  {
+    "key": "integraciones.sincronizar_catalogo_externo",
+    "name": "Sincronizar catálogo externo",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 369
+  },
+  {
+    "key": "integraciones.sincronizar_stock_con_tienda_online",
+    "name": "Sincronizar stock con tienda online",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 370
+  },
+  {
+    "key": "integraciones.publicar_catalogo_en_redes",
+    "name": "Publicar catálogo en redes",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 371
+  },
+  {
+    "key": "integraciones.conectar_correo_transaccional",
+    "name": "Conectar correo transaccional",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 372
+  },
+  {
+    "key": "integraciones.conectar_sms",
+    "name": "Conectar SMS",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 373
+  },
+  {
+    "key": "integraciones.conectar_google_maps",
+    "name": "Conectar Google Maps",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 374
+  },
+  {
+    "key": "integraciones.conectar_wompi",
+    "name": "Conectar Wompi",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 375
+  },
+  {
+    "key": "integraciones.conectar_nequi",
+    "name": "Conectar Nequi",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 376
+  },
+  {
+    "key": "integraciones.conectar_yape",
+    "name": "Conectar Yape",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 377
+  },
+  {
+    "key": "integraciones.conectar_oxxo_pay",
+    "name": "Conectar OXXO Pay",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 378
+  },
+  {
+    "key": "integraciones.conectar_shopify",
+    "name": "Conectar Shopify",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 379
+  },
+  {
+    "key": "integraciones.monitor_de_integraciones",
+    "name": "Monitor de integraciones",
+    "description": "Conecta un servicio externo y mantiene los datos en sync.",
+    "category": "integraciones",
+    "kind": "integration",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "servicios",
+      "farmacia",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 380
+  },
+  {
+    "key": "admin.datos_del_negocio",
+    "name": "Datos del negocio",
+    "description": "Consulta en vivo sobre tu operación.",
+    "category": "admin",
+    "kind": "query",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 381
+  },
+  {
+    "key": "admin.sucursales",
+    "name": "Sucursales",
+    "description": "Consulta en vivo sobre tu operación.",
+    "category": "admin",
+    "kind": "query",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 382
+  },
+  {
+    "key": "admin.cajas_por_sucursal",
+    "name": "Cajas por sucursal",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "admin",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 383
+  },
+  {
+    "key": "admin.impuestos_y_moneda",
+    "name": "Impuestos y moneda",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "admin",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 384
+  },
+  {
+    "key": "admin.numeracion_de_documentos",
+    "name": "Numeración de documentos",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "admin",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 385
+  },
+  {
+    "key": "admin.usuarios_y_accesos",
+    "name": "Usuarios y accesos",
+    "description": "Consulta en vivo sobre tu operación.",
+    "category": "admin",
+    "kind": "query",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 386
+  },
+  {
+    "key": "admin.plan_y_facturacion",
+    "name": "Plan y facturación",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "admin",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 387
+  },
+  {
+    "key": "admin.metodos_de_pago",
+    "name": "Métodos de pago",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "admin",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 388
+  },
+  {
+    "key": "admin.horarios_de_atencion",
+    "name": "Horarios de atención",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "admin",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 389
+  },
+  {
+    "key": "admin.respaldos_manuales",
+    "name": "Respaldos manuales",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "admin",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 390
+  },
+  {
+    "key": "admin.restauracion_de_respaldo",
+    "name": "Restauración de respaldo",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "admin",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 391
+  },
+  {
+    "key": "admin.exportacion_total_de_datos",
+    "name": "Exportación total de datos",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "admin",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 392
+  },
+  {
+    "key": "admin.eliminacion_de_cuenta",
+    "name": "Eliminación de cuenta",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "admin",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 393
+  },
+  {
+    "key": "admin.registro_de_auditoria",
+    "name": "Registro de auditoría",
+    "description": "Consulta en vivo sobre tu operación.",
+    "category": "admin",
+    "kind": "query",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 394
+  },
+  {
+    "key": "admin.terminos_y_privacidad",
+    "name": "Términos y privacidad",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "admin",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 395
+  },
+  {
+    "key": "admin.dominio_y_marca",
+    "name": "Dominio y marca",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "admin",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 396
+  },
+  {
+    "key": "admin.plantilla_de_tirilla",
+    "name": "Plantilla de tirilla",
+    "description": "Guía paso a paso con seguimiento.",
+    "category": "admin",
+    "kind": "playbook",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 397
+  },
+  {
+    "key": "admin.logo_del_negocio",
+    "name": "Logo del negocio",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "admin",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 398
+  },
+  {
+    "key": "admin.notificaciones",
+    "name": "Notificaciones",
+    "description": "Hazlo desde aquí, con validación y registro de auditoría.",
+    "category": "admin",
+    "kind": "action",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 399
+  },
+  {
+    "key": "admin.estado_del_sistema",
+    "name": "Estado del sistema",
+    "description": "Consulta en vivo sobre tu operación.",
+    "category": "admin",
+    "kind": "query",
+    "verticals": [
+      "retail",
+      "restaurante",
+      "farmacia",
+      "servicios",
+      "ferreteria",
+      "panaderia"
+    ],
+    "impact": 3,
+    "minPlan": "pro",
+    "aiEnabled": true,
+    "index": 400
+  }
+]

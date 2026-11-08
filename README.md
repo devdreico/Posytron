@@ -6,7 +6,8 @@ POS SaaS multi-país (LATAM) y multi-vertical. El comerciante compra su cuenta d
 
 ## Documentación
 
-- [Plan de implementación v1](docs/PLAN-IMPLEMENTACION.md)
+- [Plan de implementación](docs/PLAN-IMPLEMENTACION.md)
+- [Despliegue paso a paso](docs/DEPLOY.md)
 
 ## Stack
 
@@ -15,14 +16,42 @@ POS SaaS multi-país (LATAM) y multi-vertical. El comerciante compra su cuenta d
 - **Pagos:** MercadoPago (preapproval)
 - **IA:** multi-proveedor con BYOK cifrado en Vault
 
-## Producto
+## Estado actual — v0.1
 
-- Login por nombre de negocio + contraseña + TOTP
-- Onboarding en dos cuestionarios (inicial y de procesos)
-- Hero con glifo geométrico y exactamente 6 hubs
-- 400 herramientas catalogadas, filtradas por cuestionario
-- Planes Free / Pro / Premium
+Funciona de punta a punta en el navegador con `localStorage` y el mismo modelo de dominio que Postgres:
 
-## Estado
+- Login de administrador (negocio + contraseña + TOTP) y de empleado (usuario + PIN)
+- Registro, onboarding de 4 pasos y setup animado ("Todo listo — Preparando tu negocio digital")
+- Hero con glifo paramétrico del negocio y los 6 hubs: Caja, Inventario, Administración, Red externa, Clientes, Procesos
+- Caja: turnos, venta rápida, cobro mixto, tirilla, arqueo y cierre
+- Inventario: alta/edición, importación y exportación CSV, ajustes auditados
+- Red externa: proveedores, órdenes de compra y recepción con costo promedio
+- Clientes: cupo, cartera y abonos
+- Procesos: cuestionario que puntúa y activa los POS recomendados
+- Catálogo de **400 herramientas** ejecutables (consulta, reporte, cálculo, acción, automatización, guía, integración)
+- Copiloto con motor local y Gemini BYOK (voz incluida donde el navegador lo soporta)
+- Planes Free / Pro / Premium con límites reales y trial de 14 días
 
-Fase 0 — fundación. Sin código de aplicación todavía.
+## Arrancar
+
+```bash
+npm install
+npm run dev     # http://localhost:5173
+npm run build   # tsc --noEmit && vite build
+```
+
+Demo: negocio `minimarket-ana`, contraseña `posytron2026`, TOTP `123456`.
+Empleado: `maria` / PIN `1234`.
+
+## Estructura
+
+```
+apps/web/            app web (PWA)
+  src/lib/           dominio: tipos, store, seed, glifo, IA, runner de herramientas
+  src/pages/         vistas por hub
+  src/components/    shell, UI, copiloto
+scripts/build-tools.mjs    generador del catálogo (400 exactas)
+supabase/migrations/       esquema, RLS, hooks, facturación, Vault
+supabase/functions/        register-tenant, employee-login, mercadopago-webhook, ai-chat
+supabase/seed/tools.sql    catálogo listo para cargar
+```

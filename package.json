@@ -1,0 +1,12 @@
+{
+  "name": "posytron",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev": "npm -w @posytron/web run dev",
+    "build": "npm -w @posytron/web run build",
+    "preview": "npm -w @posytron/web run preview",
+    "tools": "node scripts/build-tools.mjs"
+  }
+}
