@@ -827,3 +827,44 @@ Semana 1 = lunes 9 de noviembre de 2026. Un dev full-time.
 | 0013 | JWT de turno para empleados | PIN sin email y sin sesiones de 30 días |
 | 0014 | Herramientas como manifiesto + RPC | Escalar a 400 sin 400 pantallas |
 | 0015 | Planes con cuotas en base de datos | El cupo no se puede burlar desde el cliente |
+
+---
+
+## 15. Estado de implementación — v0.1
+
+Marcador honesto de qué está construido y qué depende de credenciales.
+
+### Entregado y verificable en este repo
+
+| Fase | Alcance | Estado |
+|---|---|---|
+| 0 · Fundación | Repo, workspaces, Vite+React+TS+Tailwind, PWA (manifest + SW + iconos), tokens de diseño, catálogo generado | ✅ |
+| 1 · Entrada | Login admin (slug + contraseña + TOTP) y empleado (usuario + PIN), registro, onboarding de 4 pasos, setup animado, hero con glifo y 6 hubs | ✅ |
+| 2 · Venta y 40 tools | Caja con turnos, venta, cobro, tirilla y arqueo; inventario con CSV; catálogo de 400 herramientas ejecutables (45 caja incluidas) | ✅ |
+| 3 · Negocio completo | Red externa (proveedores, órdenes, recepción con costo promedio), clientes y cartera, gastos, reportes, planes con límites y flujo MercadoPago documentado | ✅ local |
+| 4 · IA y voz | Copiloto con motor local + Gemini BYOK, voz (Web Speech), cuotas de fair use modeladas en SQL | ✅ local |
+| 5 · Profundidad | 400 herramientas, cuestionario de procesos que rankea y activa POS, auditoría de acciones, permisos por rol en RLS | ✅ |
+| 6 · All-in-one | Multi-sucursal en el modelo (branches/registers), multi-país y multi-moneda, catálogo global sembrable | ⏳ modelo listo, UI de sucursales pendiente |
+
+### Backend
+
+`supabase/migrations` 0001–0006: esquema completo, RLS multi-tenant, hook de access
+token, provisión de tenants, PIN con bcrypt y bloqueo, planes y cuotas, activación
+idempotente de suscripciones, BYOK en Vault.
+
+`supabase/functions`: `register-tenant`, `employee-login`, `mercadopago-webhook`, `ai-chat`.
+
+### Lo que falta para producción (requiere credenciales)
+
+1. `supabase link` + `db push` + cargar `supabase/seed/tools.sql`.
+2. Activar el hook `custom_access_token_hook`.
+3. Deploy de las 4 Edge Functions y secrets (MercadoPago, Gemini, service role).
+4. Sustituir el store `localStorage` por el cliente de Supabase (misma forma de datos).
+5. UI de sucursales múltiples y panel de plataforma con métricas reales.
+
+### Criterio de aceptación de la v0.1
+
+Un usuario puede: crear su negocio, responder el onboarding, ver su glifo, abrir caja,
+vender, cuadrar el turno, gestionar inventario, clientes y proveedores, ejecutar
+cualquiera de las 400 herramientas y conversar con el copiloto — sin configuración
+externa y sin errores de consola.
