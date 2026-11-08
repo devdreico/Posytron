@@ -52,6 +52,9 @@ export function mutate(fn: (draft: DB) => void) {
   state = draft;
   persist();
   emit();
+  if (import.meta.env.VITE_SUPABASE_URL && import.meta.env.VITE_SUPABASE_ANON_KEY) {
+    import("./cloud").then((m) => m.scheduleSync()).catch(() => {});
+  }
 }
 
 export function resetAll() {

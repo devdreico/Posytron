@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { getDB, loginEmployee, loginOwner, DEMO_SLUG, DEMO_PASSWORD } from "../lib/store";
+import { isCloud, cloudLoginOwner, cloudLoginEmployee } from "../lib/cloud";
 import { Button, Field } from "../components/ui";
 
 export function Login() {
@@ -13,11 +14,17 @@ export function Login() {
   const [pin, setPin] = useState("");
   const [error, setError] = useState<string | null>(null);
 
-  const submit = (e: React.FormEvent) => {
+  const submit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError(null);
     const res =
-      mode === "owner" ? loginOwner(slug, password, code) : loginEmployee(slug, username, pin);
+      isCloud
+        ? mode === "owner"
+          ? await cloudLoginOwner(slug, password, code)
+          : await cloudLoginEmployee(slug, username, pin)
+        : mode === "owner"
+        ? loginOwner(slug, password, code)
+        : loginEmployee(slug, username, pin);
     if (!res.ok) {
       setError(res.error ?? "No pudimos entrar");
       return;

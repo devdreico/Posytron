@@ -1,6 +1,8 @@
-import { lazy, Suspense, type ReactNode } from "react";
+import { lazy, Suspense, useEffect, type ReactNode } from "react";
 import { BrowserRouter, Navigate, Route, Routes, useLocation, useParams } from "react-router-dom";
 import { useDB } from "./lib/store";
+import { isCloud } from "./lib/supabase";
+import { hydrate } from "./lib/cloud";
 import { Rail } from "./components/Shell";
 import { AiDock } from "./components/AiDock";
 
@@ -78,9 +80,17 @@ function Root() {
   return <Login />;
 }
 
+function CloudBootstrap() {
+  useEffect(() => {
+    if (isCloud) hydrate().catch(() => {});
+  }, []);
+  return null;
+}
+
 export function App() {
   return (
     <BrowserRouter>
+      <CloudBootstrap />
       <Suspense fallback={<Loading />}>
         <Routes>
           <Route path="/" element={<Root />} />

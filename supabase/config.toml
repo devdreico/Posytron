@@ -40,6 +40,9 @@ verify_jwt = false
 [functions.employee-login]
 verify_jwt = false
 
+[functions.owner-login]
+verify_jwt = false
+
 [functions.mercadopago-webhook]
 verify_jwt = false
 

@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { register, getDB } from "../lib/store";
+import { isCloud, cloudRegister } from "../lib/cloud";
 import { slugify } from "../lib/seed";
 import { Button, Field } from "../components/ui";
 
@@ -13,14 +14,16 @@ export function Register() {
   const [error, setError] = useState<string | null>(null);
   const slug = useMemo(() => slugify(name), [name]);
 
-  const submit = (e: React.FormEvent) => {
+  const submit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError(null);
     if (password !== confirm) {
       setError("Las contraseñas no coinciden.");
       return;
     }
-    const res = register({ name, email, password });
+    const res = isCloud
+      ? await cloudRegister({ name, email, password })
+      : register({ name, email, password });
     if (!res.ok) {
       setError(res.error ?? "No pudimos crear la cuenta.");
       return;
