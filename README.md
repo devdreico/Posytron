@@ -4,6 +4,8 @@ POS SaaS multi-país (LATAM) y multi-vertical. El comerciante compra su cuenta d
 
 **Diferenciador:** gemelo digital. La IA entiende todo el POS y lo modifica por voz.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdevdreico%2FPosytron&root-directory=apps%2Fweb&env=VITE_SUPABASE_URL,VITE_SUPABASE_ANON_KEY&envDescription=Opcional%3A%20conectar%20Supabase.%20Sin%20estas%20variables%20la%20app%20corre%20en%20modo%20local.)
+
 ## Documentación
 
 - [Plan de implementación](docs/PLAN-IMPLEMENTACION.md)
